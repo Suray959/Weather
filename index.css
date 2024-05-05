@@ -1,0 +1,130 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2023/12/20/07/04/clouds-8459053_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content:center; 
+    background-color: rgb(144, 200, 222);
+    margin: 0px;
+    height: 100px;
+    align-items: center; 
+  
+  }
+  nav h2 {
+    font-family: "Arial Black", sans-serif; 
+    margin-left: 820px;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #333; 
+}
+
+ p{
+    font-size: 15px;
+    text-align: center;
+    font-size: medium;
+ }
+
+h2{
+    text-align: center;
+    color: rgb(20, 19, 19);
+  }
+img {
+  margin-left: 140px;
+}
+#cityInfo{
+    display: block;
+    background-color: rgb(238, 197, 85); 
+    border:0px;
+    background-color: rgb(206, 236, 246);
+    margin: 20px;
+     width: 350px;
+     height: 390px; 
+     margin-left: 560px;}
+.info{
+display: flex;
+flex-direction: row;
+width: 500px;
+ margin-left: 530px;
+ margin-top: 20px;
+ 
+}
+
+
+.search {
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0px solid white;
+   
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    nav h2 {
+        display:flex;
+        justify-content: center;
+        margin-left: 0;
+        font-size: 19px;
+    }
+
+    .info {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon {
+        margin-left: 0;
+        width: 50%;
+    }
+
+    .search {
+        margin-left: 0; 
+        width: 70%; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

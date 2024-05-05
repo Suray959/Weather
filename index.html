@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App(suray)</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <nav >
+        <h2>Hava Proqnozu</h2>
+        <img  style="width: 60px;margin-right: 800px;" src="https://cdn3.iconfinder.com/data/icons/classic-icons-1/512/26.png" >
+        
+     </nav>
+<div style="width: 1000px;height: 500px;display: flex;flex-direction: column;">
+    <div class="info">
+        <input  class="search" type="search" placeholder="Yasadiginiz seheri daxil edin :">
+        <img class="icon" style="width: 40px; height: 40px;margin-left: 10px; margin: 5px;"  src="https://cdn-icons-png.flaticon.com/128/2569/2569888.png" >
+        <img class="delete"  style="width: 40px; height: 40px;margin-left: 10px; margin: 5px;" src= "https://cdn-icons-png.flaticon.com/128/9779/9779663.png">
+    </div>
+    
+    <div id="cityInfo" style="display: none;" >
+        <h2 id="cityName"></h2>
+        <div id="weatherIcon"></div>
+        <p></p>
+      
+    </div>
+    
+    <audio class="yagis"  src="./yagis.mp3"></audio>
+    <audio class="gunesli"  src="./yay.mp3"></audio>
+</div>
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
